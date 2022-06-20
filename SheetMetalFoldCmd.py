@@ -23,7 +23,7 @@
 #
 ##############################################################################
 
-from FreeCAD import Gui
+#from FreeCAD import Gui
 from PySide import QtCore, QtGui
 
 import FreeCAD, Part, os, math
@@ -394,4 +394,4 @@ class AddFoldWallCommandClass():
       return False
     return True
 
-Gui.addCommand('SMFoldWall',AddFoldWallCommandClass())
+#Gui.addCommand('SMFoldWall',AddFoldWallCommandClass())
