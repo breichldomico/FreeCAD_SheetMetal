@@ -334,9 +334,9 @@ class SMExtrudeWall:
 
     s = smExtrude(extLength = fp.length.Value,  gap1 = fp.gap1.Value, gap2 = fp.gap2.Value, subtraction = fp.UseSubtraction,
                     offset = fp.Offset.Value, refine = fp.Refine, sketch = fp.Sketch, selFaceNames = face, selObject = Main_Object)
-    fp.baseObject[0].ViewObject.Visibility = False
-    if fp.Sketch :
-      fp.Sketch.ViewObject.Visibility = False
+#    fp.baseObject[0].ViewObject.Visibility = False
+#    if fp.Sketch :
+#      fp.Sketch.ViewObject.Visibility = False
     fp.Shape = s
 
 class SMViewProviderTree:
