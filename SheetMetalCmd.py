@@ -1105,9 +1105,9 @@ class SMBendWall:
       Main_Object = s
 
     fp.Shape = s
-    fp.baseObject[0].ViewObject.Visibility = False
-    if fp.Sketch :
-      fp.Sketch.ViewObject.Visibility = False
+#    fp.baseObject[0].ViewObject.Visibility = False
+#    if fp.Sketch :
+#      fp.Sketch.ViewObject.Visibility = False
 
 
 class SMViewProviderTree:
