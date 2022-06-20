@@ -220,8 +220,8 @@ def smFold(bendR = 1.0, bendA = 90.0, kfactor = 0.5, invertbend = False, flipped
     if bendlinesketch and bendA > 0.0 :
       resultsolid = FoldShape
 
-  Gui.ActiveDocument.getObject(MainObject.Name).Visibility = False
-  Gui.ActiveDocument.getObject(bendlinesketch.Name).Visibility = False
+  #Gui.ActiveDocument.getObject(MainObject.Name).Visibility = False
+  #Gui.ActiveDocument.getObject(bendlinesketch.Name).Visibility = False
   return resultsolid
 
 class SMFoldWall:
