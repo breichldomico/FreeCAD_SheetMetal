@@ -23,7 +23,7 @@
 #
 ###################################################################################
 
-from FreeCAD import Gui
+#from FreeCAD import Gui
 from PySide import QtCore, QtGui
 from FreeCAD import Base
 
@@ -604,5 +604,5 @@ class SMExtrudeCommandClass():
         return False
     return True
 
-Gui.addCommand('SMExtrudeFace',SMExtrudeCommandClass())
+#Gui.addCommand('SMExtrudeFace',SMExtrudeCommandClass())
 
